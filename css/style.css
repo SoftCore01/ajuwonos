@@ -59,6 +59,14 @@ button {
   border: none;
   cursor: pointer; }
 
+.myimg {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.myimg img {
+  width: 200px;
+  border-radius: 50%;
+}
 textarea {
   resize: none; }
 .colorwhite {
@@ -150,10 +158,10 @@ textarea {
   .btn:hover {
     transform: translateY(-3px); }
   .btn--bg {
-    padding: 1.5rem 8rem;
+    padding: 1rem;
     font-size: 2rem; }
   .btn--med {
-    padding: 1.5rem 5rem;
+    padding: 1rem 2rem;
     font-size: 1.6rem; }
   .btn--theme {
     background: #0062b9;
@@ -332,9 +340,9 @@ textarea {
     background: white;
     padding: 4rem;
     margin-top: 6rem;
-    max-width: 80rem;
+    max-width: 550px;
     text-align: right;
-    width: 95%;
+    width: 90%;
     border-radius: 5px;
     margin: 5rem auto 0 auto; }
     @media only screen and (max-width: 37.5em) {
@@ -396,8 +404,7 @@ textarea {
       font-weight: 600;
       font-size: 1.6rem; }
   .contact__btn {
-    width: 30%;
-    padding: 2rem 4rem;
+    padding: 1rem 2rem;
     font-size: 1.6rem; }
     @media only screen and (max-width: 37.5em) {
       .contact__btn {
@@ -671,7 +678,13 @@ textarea {
     background: rgba(153, 153, 153, 0.2);
     border-radius: 5px;
     font-weight: 600;
-    color: #777; }
+    color: #777; 
+    &:hover {
+      box-shadow: -2px 4px 3px 2px rgba(0,0,0,0.75);
+      -webkit-box-shadow: -2px 4px 3px 2px rgba(0,0,0,0.75);
+      -moz-box-shadow: -2px 4px 3px 2px rgba(0,0,0,0.75);
+    }
+  }
 
 .mouse {
   width: 25px;
